@@ -1,0 +1,9 @@
+#忽略所有.a结尾的文件
+*.a
+#但lib.a 除外
+!lib.a
+#仅仅忽略项目根目录下的TODO,不包括subdir/TODO
+/TODO
+#忽略bulid／目录下所有的文件
+build/
+#
