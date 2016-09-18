@@ -14,10 +14,9 @@
 		321FE3851D8130DC0045F0E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321FE3831D8130DC0045F0E2 /* LaunchScreen.storyboard */; };
 		321FE3901D8130DC0045F0E2 /* ManyViewSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 321FE38F1D8130DC0045F0E2 /* ManyViewSliderTests.m */; };
 		321FE39B1D8130DC0045F0E2 /* ManyViewSliderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 321FE39A1D8130DC0045F0E2 /* ManyViewSliderUITests.m */; };
-		321FE3B21D8133FD0045F0E2 /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321FE3B01D8133FD0045F0E2 /* SliderViewController.m */; };
 		321FE3B51D8134120045F0E2 /* SliderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 321FE3B41D8134120045F0E2 /* SliderModel.m */; };
-		321FE3B81D81343C0045F0E2 /* MainScrollVier.m in Sources */ = {isa = PBXBuildFile; fileRef = 321FE3B71D81343C0045F0E2 /* MainScrollVier.m */; };
 		321FE3BC1D8135F80045F0E2 /* VCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 321FE3BB1D8135F80045F0E2 /* VCManager.m */; };
+		3252A27A1D938230004D391B /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3252A2791D938230004D391B /* PageViewController.m */; };
 		5886360FF25AE4CC7B353C1C /* libPods-ManyViewSlider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 907A53FD302694A2D4798355 /* libPods-ManyViewSlider.a */; };
 /* End PBXBuildFile section */
 
@@ -54,15 +53,13 @@
 		321FE39A1D8130DC0045F0E2 /* ManyViewSliderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManyViewSliderUITests.m; sourceTree = "<group>"; };
 		321FE39C1D8130DC0045F0E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		321FE3A81D81321A0045F0E2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		321FE3AF1D8133FD0045F0E2 /* SliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderViewController.h; sourceTree = "<group>"; };
-		321FE3B01D8133FD0045F0E2 /* SliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderViewController.m; sourceTree = "<group>"; };
 		321FE3B31D8134120045F0E2 /* SliderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderModel.h; sourceTree = "<group>"; };
 		321FE3B41D8134120045F0E2 /* SliderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderModel.m; sourceTree = "<group>"; };
-		321FE3B61D81343C0045F0E2 /* MainScrollVier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScrollVier.h; sourceTree = "<group>"; };
-		321FE3B71D81343C0045F0E2 /* MainScrollVier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScrollVier.m; sourceTree = "<group>"; };
 		321FE3BA1D8135F80045F0E2 /* VCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCManager.h; sourceTree = "<group>"; };
 		321FE3BB1D8135F80045F0E2 /* VCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCManager.m; sourceTree = "<group>"; };
 		321FE3BE1D81424F0045F0E2 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		3252A2781D938230004D391B /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		3252A2791D938230004D391B /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
 		52F63F770DB4C23BB32613F0 /* Pods-ManyViewSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManyViewSlider.release.xcconfig"; path = "Pods/Target Support Files/Pods-ManyViewSlider/Pods-ManyViewSlider.release.xcconfig"; sourceTree = "<group>"; };
 		907A53FD302694A2D4798355 /* libPods-ManyViewSlider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ManyViewSlider.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCCCF90AD3B6DFE0D40679E0 /* Pods-ManyViewSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManyViewSlider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManyViewSlider/Pods-ManyViewSlider.debug.xcconfig"; sourceTree = "<group>"; };
@@ -182,8 +179,8 @@
 		321FE3AE1D8133FD0045F0E2 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				321FE3AF1D8133FD0045F0E2 /* SliderViewController.h */,
-				321FE3B01D8133FD0045F0E2 /* SliderViewController.m */,
+				3252A2781D938230004D391B /* PageViewController.h */,
+				3252A2791D938230004D391B /* PageViewController.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -191,8 +188,6 @@
 		321FE3B11D8133FD0045F0E2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				321FE3B61D81343C0045F0E2 /* MainScrollVier.h */,
-				321FE3B71D81343C0045F0E2 /* MainScrollVier.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -418,9 +413,8 @@
 				321FE37A1D8130DC0045F0E2 /* AppDelegate.m in Sources */,
 				321FE3B51D8134120045F0E2 /* SliderModel.m in Sources */,
 				321FE3BC1D8135F80045F0E2 /* VCManager.m in Sources */,
-				321FE3B81D81343C0045F0E2 /* MainScrollVier.m in Sources */,
+				3252A27A1D938230004D391B /* PageViewController.m in Sources */,
 				321FE3771D8130DC0045F0E2 /* main.m in Sources */,
-				321FE3B21D8133FD0045F0E2 /* SliderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

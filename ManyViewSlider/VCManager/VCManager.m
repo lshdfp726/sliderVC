@@ -7,7 +7,7 @@
 //
 
 #import "VCManager.h"
-#import "SliderViewController.h"
+#import "PageViewController.h"
 @implementation VCManager
 
 + (instancetype)share {
@@ -29,7 +29,7 @@
 }
 
 - (void)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-     SliderViewController *vc = [[SliderViewController alloc]init];
+     PageViewController *vc = [[PageViewController alloc]init];
      UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
      NSLog(@"%@",application.delegate.window);
      application.delegate.window = [[UIWindow alloc]init];
