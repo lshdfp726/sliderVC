@@ -11,4 +11,9 @@
 @interface SliderModel : NSObject
 
 
+@property (strong, nonatomic) NSString *name;
+@property (strong, nonatomic) NSString *url;
+@property (strong, nonatomic) NSString *time;
+@property (strong, nonatomic) NSString *desc;//描述
+
 @end

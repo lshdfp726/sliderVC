@@ -17,6 +17,9 @@
 		321FE3B51D8134120045F0E2 /* SliderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 321FE3B41D8134120045F0E2 /* SliderModel.m */; };
 		321FE3BC1D8135F80045F0E2 /* VCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 321FE3BB1D8135F80045F0E2 /* VCManager.m */; };
 		3252A27A1D938230004D391B /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3252A2791D938230004D391B /* PageViewController.m */; };
+		3252A2821D938932004D391B /* SliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3252A2811D938932004D391B /* SliderView.m */; };
+		3252A2871D938B1F004D391B /* SliderBarManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3252A2861D938B1F004D391B /* SliderBarManger.m */; };
+		3252A28A1D93AEAB004D391B /* TopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3252A2891D93AEAA004D391B /* TopBarView.m */; };
 		5886360FF25AE4CC7B353C1C /* libPods-ManyViewSlider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 907A53FD302694A2D4798355 /* libPods-ManyViewSlider.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +63,12 @@
 		321FE3BE1D81424F0045F0E2 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		3252A2781D938230004D391B /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
 		3252A2791D938230004D391B /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		3252A2801D938932004D391B /* SliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderView.h; sourceTree = "<group>"; };
+		3252A2811D938932004D391B /* SliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderView.m; sourceTree = "<group>"; };
+		3252A2851D938B1F004D391B /* SliderBarManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderBarManger.h; sourceTree = "<group>"; };
+		3252A2861D938B1F004D391B /* SliderBarManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderBarManger.m; sourceTree = "<group>"; };
+		3252A2881D93AEAA004D391B /* TopBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBarView.h; sourceTree = "<group>"; };
+		3252A2891D93AEAA004D391B /* TopBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopBarView.m; sourceTree = "<group>"; };
 		52F63F770DB4C23BB32613F0 /* Pods-ManyViewSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManyViewSlider.release.xcconfig"; path = "Pods/Target Support Files/Pods-ManyViewSlider/Pods-ManyViewSlider.release.xcconfig"; sourceTree = "<group>"; };
 		907A53FD302694A2D4798355 /* libPods-ManyViewSlider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ManyViewSlider.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCCCF90AD3B6DFE0D40679E0 /* Pods-ManyViewSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManyViewSlider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManyViewSlider/Pods-ManyViewSlider.debug.xcconfig"; sourceTree = "<group>"; };
@@ -160,6 +169,8 @@
 		321FE3AC1D8133FD0045F0E2 /* SliderModule */ = {
 			isa = PBXGroup;
 			children = (
+				3252A2841D938AEE004D391B /* SliderVCManger */,
+				3252A2831D938ABD004D391B /* SliderBarManager */,
 				321FE3AD1D8133FD0045F0E2 /* Model */,
 				321FE3AE1D8133FD0045F0E2 /* VC */,
 				321FE3B11D8133FD0045F0E2 /* View */,
@@ -188,6 +199,10 @@
 		321FE3B11D8133FD0045F0E2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3252A2801D938932004D391B /* SliderView.h */,
+				3252A2811D938932004D391B /* SliderView.m */,
+				3252A2881D93AEAA004D391B /* TopBarView.h */,
+				3252A2891D93AEAA004D391B /* TopBarView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -207,6 +222,22 @@
 				321FE3BE1D81424F0045F0E2 /* Define.h */,
 			);
 			path = DefineDoc;
+			sourceTree = "<group>";
+		};
+		3252A2831D938ABD004D391B /* SliderBarManager */ = {
+			isa = PBXGroup;
+			children = (
+				3252A2851D938B1F004D391B /* SliderBarManger.h */,
+				3252A2861D938B1F004D391B /* SliderBarManger.m */,
+			);
+			name = SliderBarManager;
+			sourceTree = "<group>";
+		};
+		3252A2841D938AEE004D391B /* SliderVCManger */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SliderVCManger;
 			sourceTree = "<group>";
 		};
 		D7EBDF584104F0E22C1817C7 /* Pods */ = {
@@ -291,7 +322,7 @@
 		321FE36A1D8130DC0045F0E2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "刘松洪";
 				TargetAttributes = {
 					321FE3711D8130DC0045F0E2 = {
@@ -410,7 +441,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3252A2871D938B1F004D391B /* SliderBarManger.m in Sources */,
 				321FE37A1D8130DC0045F0E2 /* AppDelegate.m in Sources */,
+				3252A28A1D93AEAB004D391B /* TopBarView.m in Sources */,
+				3252A2821D938932004D391B /* SliderView.m in Sources */,
 				321FE3B51D8134120045F0E2 /* SliderModel.m in Sources */,
 				321FE3BC1D8135F80045F0E2 /* VCManager.m in Sources */,
 				3252A27A1D938230004D391B /* PageViewController.m in Sources */,
